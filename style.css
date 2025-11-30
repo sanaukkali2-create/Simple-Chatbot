@@ -1,0 +1,70 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif; /* Sets default font */
+    background: #60a2b6; /* Light gray background */
+    display: flex; /* Used to center container */
+    justify-content: center; /* Horizontal center */
+    padding-top: 50px; /* Margin from top */
+}
+
+/* Chat container box */
+.chat-container {
+    width: 350px;
+    background: rgb(75, 39, 6); /* White box */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Chat window area where messages appear */
+.chat-box {
+    height: 350px; /* Fixed height */
+    overflow-y: auto; /* Scroll when messages overflow */
+    border: 1px solid #f3e9e9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Every message bubble */
+.message {
+    margin: 8px 0; /* Spacing between messages */
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* User messages (right side) */
+.user {
+    background: #e58fd3; /* Light green */
+    text-align: right;
+}
+
+/* Bot messages (left side) */
+.bot {
+    background: #f8d7da; /* Light red */
+    text-align: left;
+}
+
+/* Input area layout: input + button in one line */
+.input-area {
+    display: flex;
+}
+
+/* Textbox styling */
+input {
+    flex: 1; /* Input takes available space */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+}
+
+/* Send button formatting */
+button {
+    padding: 8px 12px;
+    margin-left: 8px; /* Space between input & button */
+    background: #e9c111; /* Blue color */
+    border: none;
+    color: rgb(159, 52, 221);
+    border-radius: 4px;
+    cursor: pointer; /* Pointer cursor on hover */
+}

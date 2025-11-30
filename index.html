@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> <!-- Supports all characters -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Makes page mobile responsive -->
+    <title>Simple Chatbot</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Main chatbot container -->
+    <div class="chat-container">
+
+        <!-- Title -->
+        <h2>Simple Chatbot</h2>
+
+        <!-- Message display area -->
+        <div id="chat-box" class="chat-box"></div>
+
+        <!-- Input + button -->
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type your message..." /> <!-- User typing area -->
+            <button onclick="sendMessage()">Send</button> <!-- Calls JavaScript function -->
+        </div>
+    </div>
+
+    <!-- Linking JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
